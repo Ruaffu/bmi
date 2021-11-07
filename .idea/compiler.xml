@@ -15,7 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="bmi" options="-endorseddirs J:\Dat2ndSem\cupcake\target/endorsed" />
+      <module name="bmi" options="-endorseddirs J:\Dat2ndSem\bmi\target/endorsed" />
     </option>
   </component>
 </project>

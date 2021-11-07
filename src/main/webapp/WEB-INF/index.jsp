@@ -30,6 +30,29 @@
                         <label for="weight">Weight in kg: </label>
                         <input id="weight" name="weight" type="text" class="form-control"/><br/>
                     </div>
+
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+
+                    <label for="exercise">Your primary form of exercise:</label>
+                    <select id="exercise" name="exercise">
+                        <option value="1">Football</option>
+                        <option value="2">Gymnastics</option>
+                        <option value="3">Yoga</option>
+                        <option value="4">Badminton</option>
+                    </select>
+
+                    <br/>
+                    <input type="checkbox" id="hobby1" name="hobby" value="I'm into healthy eating">
+                    <label for="hobby1"> I'm into healthy eating</label><br>
+                    <input type="checkbox" id="hobby2" name="hobby" value="I own a cottage">
+                    <label for="hobby2"> I own a cottage</label><br>
+                    <input type="checkbox" id="hobby3" name="hobby" value="I have a pet">
+                    <label for="hobby3"> I have a pet</label>
+                    <br/>
+
                     <c:if test="${requestScope.error != null}">
                         <p style="color: red">
                                 ${requestScope.error}
